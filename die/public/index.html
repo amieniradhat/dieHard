@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: gainsboro;
+      }
+      .canvas {
+        width: 60%;
+        margin: auto;
+        background-color: white;
+      }
+      .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+        border: 1px solid;
+        box-sizing: border-box;
+      }
+      .header img {
+        width: 8%;
+      }
+      .header h1 {
+        font-size: 200%;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        background-color: antiquewhite;
+      }
+      .nav a {
+        text-decoration: none;
+        color: black;
+      }
+      .isi {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .bgimg {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position-y: -120px;
+        background-position: center;
+        background-image: url(./assets/image/ggw.webp);
+      }
+      form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      select {
+        width: 80%;
+      }
+      p {
+        text-align: center;
+      }
+      .p1 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 25px;
+        line-height: 25px;
+      }
+      .p2 {
+        font-family: "Times New Roman", Times, serif;
+        padding: 0 150px;
+      }
+      select {
+        padding: 20px;
+      }
+      option {
+        padding-right: 20px;
+        background-image: url(./assets/image/ggw.webp);
+      }
+      .rest {
+        display: flex;
+        width: 100%;
+      }
+      .rest img {
+        position: absolute;
+      }
+      option {
+        font-size: 25px;
+      }
+      select {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas">
+      <div class="header">
+        <img src="./assets/image/optio.png" alt="" />
+        <h1>Chobant</h1>
+        <img src="assets/image/search-removebg-preview.png" alt="" />
+      </div>
+      <div class="nav">
+        <a href="">All Oatmilk</a>
+        <a href="">Oatmilk</a>
+        <a href="">Oatmilk Barista</a>
+      </div>
+      <div class="isi">
+        <div class="bgimg"></div>
+        <p class="p1">
+          Chobani &#174; Oatmilk &#9829; <br />
+          Original
+        </p>
+        <p class="p2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          eligendi debitis ea minu consectetur, adipisicing elit. Provident
+          molestiae reprehenderit quidem praesentium laborum facere?
+        </p>
+        <p class="p3">All Flavors</p>
+
+        <form action="">
+          <select name="" id="">
+            <option value="Original">&#9728; Original</option>
+            <option value="Kekecewaan">&#9731; Kekecewaan</option>
+            <option value="Kebahagian">&#9732; Kebahagian</option>
+          </select>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
